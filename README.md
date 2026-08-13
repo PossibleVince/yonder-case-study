@@ -229,13 +229,35 @@ Yonder is primarily a product project, but it also demonstrates skills relevant 
 
 ## Architecture
 
-A simplified public architecture overview will be added here.
+## Architecture
 
-At a high level:
+Yonder uses a lightweight mobile-first architecture designed around a SwiftUI client, Supabase services, and PostgreSQL-backed application data.
 
-`SwiftUI iOS App → Supabase Services → PostgreSQL`
+```mermaid
+flowchart TD
+    A[iOS App<br/>SwiftUI] --> B[Supabase Services]
 
-Detailed database schemas, backend functions, security policies, and proprietary business rules are intentionally not published.
+    B --> C[Authentication]
+    B --> D[Backend Services]
+    B --> E[Access Control]
+
+    C --> F[PostgreSQL]
+    D --> F
+    E --> F
+
+    F --> G[Application Data]
+    F --> H[Business State]
+
+    I[Development Workflow] --> J[Git / GitHub]
+    I --> K[Local + Hosted Environments]
+    I --> L[AI-Assisted Planning & QA]
+```
+
+### Public Architecture Scope
+
+This diagram intentionally shows only the high-level system structure.
+
+Detailed database schemas, backend functions, security policies, migrations, internal APIs, and proprietary business rules are not published.
 
 ---
 
