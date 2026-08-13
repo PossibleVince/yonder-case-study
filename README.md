@@ -181,11 +181,49 @@ Yonder is primarily a product project, but it also demonstrates skills relevant 
 
 ---
 
-## Screenshots
+## Current MVP Screens
 
-Product screenshots and selected workflow examples will be added here as development progresses.
+> Current MVP screens from active development. The UI and visual design are still evolving as Yonder moves toward a more polished release.
 
-> Screenshots shown in this repository will use demo or sanitized data only.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/explore.jpg" width="100%" alt="Yonder Explore Screen">
+      <br>
+      <strong>Explore</strong><br>
+      Discover public activities across different activity types and transportation arrangements.
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/activity-detail.jpg" width="100%" alt="Yonder Activity Detail Screen">
+      <br>
+      <strong>Activity Detail</strong><br>
+      Structured activity information including destination, schedule, capacity, organizer, and participation details.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/create-ride-arrangement.jpg" width="100%" alt="Yonder Ride Arrangement Screen">
+      <br>
+      <strong>Ride Arrangement</strong><br>
+      Transportation is modeled as part of the activity workflow instead of being handled through separate coordination.
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/create-time-place.jpg" width="100%" alt="Yonder Time and Place Screen">
+      <br>
+      <strong>Time & Place</strong><br>
+      Activity scheduling includes destination, timing, application deadlines, and timezone-aware behavior.
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/screenshots/trips.jpg" width="48%" alt="Yonder Trips Screen">
+</p>
+
+<p align="center">
+  <strong>Trips</strong><br>
+  A consolidated view for activities the user organizes or participates in.
+</p>
 
 ---
 
